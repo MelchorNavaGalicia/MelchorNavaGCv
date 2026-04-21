@@ -82,3 +82,51 @@ button {
     background: #333;
     color: #fff;
 }
+
+
+/* Contenedor de items */
+.item-edu {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #2c3e50;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover bonito */
+.item-edu:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.item-edu h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+/* Fecha */
+.item-edu span {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Descripción */
+.item-edu p {
+    margin: 5px 0 0;
+}
+
+/* Modo oscuro */
+.dark .item-edu {
+    background: #2c2c2c;
+    border-left: 5px solid #00adb5;
+}
+
+.dark-edu .item span {
+    color: #bbb;
+}
