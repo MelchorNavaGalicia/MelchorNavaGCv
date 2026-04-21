@@ -10,6 +10,7 @@ header {
     color: white;
     text-align: center;
     padding: 30px;
+    position: relative;
 }
 
 section {
@@ -55,4 +56,29 @@ button {
 
 .dark header {
     background: #000;
+}
+
+
+#themeToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    color: #2c3e50;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#themeToggle:hover {
+    transform: scale(1.1);
+}
+
+/* Ajuste en modo oscuro */
+.dark #themeToggle {
+    background: #333;
+    color: #fff;
 }
